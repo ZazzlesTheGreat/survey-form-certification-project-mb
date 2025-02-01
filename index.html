@@ -4,8 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&display=swap" rel="stylesheet">
+<link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
+    <form id="survey-form">
+<div class="back">
+  <br>
+  <h1 id="title">Animal Crossing <br>Survey</h1>
+  <hr>
+  <br>
+  <p id="description" class="description">A quick survey to improve the game of animal crossing with insight from fans like you.</p>
+  <fieldset>
+    <label id="name-label" for="name">Name <br><input id="name" name="name" type="text" placeholder="(Please enter first and last name)" class="info" required/></label>
+    <br>
+     <label id="number-label" for="number">Age <br><input id="number" name="number" type="number" placeholder="(Please enter age)" class="info" min="6" max="120" required /></label>
+    <br>
+    <label id="email-label" for="email">Enter Your Email: <br><input id="email" name="email" type="email" placeholder="(Please enter valid email)" class="info" required /></label>
+    <br>
+    <label for="system">On which system did you start playing Animal Crossing?<br>
+          <select id="dropdown" name="system" class="system">
+            <option value="0">(Please choose one)</option>
+            <option value="1">Nintendo 64</option>
+            <option value="2">Nintendo DS</option>
+            <option value="3">Wii</option>
+            <option value="4">Nintendo 3DS</option>
+            <option value="5">Wii U</option>
+            <option value="6">Phone (Mobile App)</option>
+            <option value="7">Nintendo Switch</option>
+          </select>
+        </label>
+    <br>
+    <fieldset>
     
+      <legend>Do you enjoy the Animal Crosing Franchise? </legend>
+        <label for="yes"><input id="yes" type="radio" name="franchise" class="inline" value="yes" checked/>Yes</label> <br>
+        <label for="no"><input id="no" type="radio" name="franchise" class="inline" value="no"/>No</label> <br>
+      <label for="i-dont-know"><input id="i-dont-know" type="radio" name="franchise" class="inline" value="idk" />I don't know what Animal Crossing is.</label>
+      </fieldset>
+    <fieldset>
+    <p>Which Animal Crossing  games have you played? 
+      (select all that apply)</p>
+    <label for="games"><input class="inline" id="games" type="checkbox" required name="games" value="AC01" /> Animal Crossing (2001)</label>
+    <label for="games"><input class="inline" id="games" type="checkbox" required name="games" value="ACWW" /> Animal Crossing: Wild World (2005)</label>
+    <label for="games"><input class="inline" id="games" type="checkbox" required name="games" value="ACCF" /> Animal Crossing: City Folk (2008)</label>
+    <label for="games"><input class="inline" id="games" type="checkbox" required name="games" value="ACNL" /> Animal Crossing: New Leaf (2012)</label>
+    <label for="games"><input class="inline" id="games" type="checkbox" required name="games" value="ACPC" /> Animal Crossing: Pocket Camp (2017)</label>
+    <label for="games"><input class="inline" id="games" type="checkbox" required name="games" value="ACNH" /> Animal Crossing: New Horizons (2020)</label>
+    </fieldset>
+  <fieldset>
+    <legend>Which NPC is your favorite? </legend>
+        <label for="tom-nook"><input id="tom-nook" type="radio" name="npc" class="inline" checked value="tom-nook" /> Tom Nook</label>
+        <label for="timmy-tommy"><input id="timmy-tommy" type="radio" name="npc" class="inline" value="tim-tom" /> Timmy & Tommy</label>
+      <label for="isabelle"><input id="isabelle" type="radio" name="npc" class="inline" value="isabelle" /> Isabelle</label>
+    <label for="mr-resetti"><input id="mr-resetti" type="radio" name="npc" class="inline" value="resetti" /> Mr.Resetti</label>
+    <label for="kkslider"><input id="kkslider" type="radio" name="npc" class="inline" value="KK" /> K.K. Slider</label>
+    <label for="brewster"><input id="brewster" type="radio" name="npc" class="inline" value="brewster" /> Brewster</label>
+    <label for="blathers"><input id="blathers" type="radio" name="npc" class="inline" value="blathers" /> Blathers</label>
+    <label for="celeste"><input id="celeste" type="radio" name="npc" class="inline" value="celeste" /> Celeste</label>
+    <label for="pascal"><input id="pascal" type="radio" name="npc" class="inline" value="pascal" /> Pascal</label>
+    <label for="a-villager"><input id="a-villager" type="radio" name="npc" class="inline" value="villager" /> A Villager</label>
+    <label for="other"><input id="other" type="radio" name="npc" class="inline"  value="other" /> Other </label><label for="other"><input id="other" name="other" type="text" placeholder="Please Enter Other NPC"/></label>
+    </fieldset>
+    <fieldset>
+      <label for="villager">Which villager is your favorite? <br><input id="villager" name="villager" type="text" placeholder="(Favorite villager here...)" required/></label><br>
+      <label for="suggestions">Please put any suggestions you have for the next edition of the game below:</label> <br>
+   <div align="center">  
+  <textarea id="suggestions" name="suggestions" type="text" placeholder="Comment Here:" rows="5" required></textarea> </div>
+    </fieldset>
+    <input id="submit" type="submit" value="Submit"/>
+    <br><br>
+    <p class="outro">Thank you for your participation.</p>
+    <img class="tanuki" src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/06/AC-Tom-Timmy-and-Tommy-Nook.jpg?q=50&fit=crop&w=825&dpr=1.5" alt="Tom Nook with Timmy and Tommy tanuki racoon">
+    <br><br>
+    </div> 
+  </form>
 </body>
 </html>

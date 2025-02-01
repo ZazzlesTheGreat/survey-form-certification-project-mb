@@ -1,0 +1,105 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 60px;
+    background-image: url(https://i.pinimg.com/736x/59/b5/36/59b53691f13db6e5650e80ec408fe7e5.jpg);
+    color: #F5F7E9;
+    text-align: left;
+    font-family: "Coustard", serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding:60px; 
+  }
+  
+  .back {
+    Background-color: #007063;
+    font-family: "Coustard";
+    margin: 0 auto;
+  }
+  h1 {
+    text-align: center;
+    font-weight: 400;
+  }
+  hr {
+    height: 2px;
+    background-color: #F5F7E9;
+    border-color: #F5F7E9;
+    width: 90%;
+  }
+  .description {
+   font-family: Coustard;
+    font-style: normal;
+    line-height: normal;
+   font-weight: 400;
+   text-align: left;
+   margin: 0 70px;
+  }
+  label {
+    display:block;
+    margin: 0 35px;
+  }
+  form {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+    input, text {
+    background-color: #01473F;
+    border: 1px solid #01473F;
+    color: #60A69E;
+    padding: 10px;
+    font-family: "Coustard";
+  }
+  
+  input[type="text"], input[type="email"], input[type="number"]{
+    width: 118%;
+    font-size: 20px
+  }
+  .system {
+    background-color: #01473F;
+    border: 1px solid #01473F;
+    color: #60A69E;
+    width: 120%;
+    padding: 10px;
+    font-family: "Coustard";
+  }
+  input[type="submit"] {
+    text-align: center;
+    width: 30%;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    color: #01473F;
+    font-size: 40px;
+    background-color: #95E4B9;
+  }
+  fieldset {
+    width:80%;
+    padding:2rem;
+    border:none; 
+  }
+  textarea{
+    width: 80%;
+    align-items: center;
+    min-height: 2em;
+    padding: 30px;
+    background-color: #01473F;
+    color: #60A69E;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Coustard";
+  }
+  .outro{
+    text-align: center;
+  }
+  .tanuki{
+    display: block;
+    border: 1px solid #F5F7E9;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  
